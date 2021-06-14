@@ -1,3 +1,3 @@
-# Slides_MobileProgramming
+# Android Sensors
 
-Some examples for mobile programming course (Android(Java) and Swift)
+Examples for Slide04 of mobile programming course ( Android Sensors )
