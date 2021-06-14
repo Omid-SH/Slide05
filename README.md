@@ -1,7 +1,3 @@
 # Slide05_MobileProgramming
-Slide05
-| StudentName | ID |
-| :---: | :---: |
-| AmirHoseinRostami | 96101635 |
-| OmidSharafi | 96101838 |
 
+Some examples for mobile programming course (Android and iOS)
