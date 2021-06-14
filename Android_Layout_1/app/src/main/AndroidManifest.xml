@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.slides2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Slide17_18">
+
+        </activity>
+
+        <activity android:name=".Slide21">
+
+        </activity>
+
+        <activity android:name=".Slide27_28">
+
+        </activity>
+
+        <activity android:name=".Slide31_32">
+
+        </activity>
+
+        <activity android:name=".Slide35">
+
+        </activity>
+
+        <activity android:name=".Slide37_40">
+
+        </activity>
+
+        <activity android:name=".Slide45_47">
+
+        </activity>
+        
+        <activity android:name=".Slide48_49">
+
+        </activity>
+
+        <activity android:name=".Slide51_52">
+
+        </activity>
+
+        <activity android:name=".Slide54_55">
+
+        </activity>
+        
+        <activity android:name=".Slide56_57">
+
+        </activity>
+
+        <activity android:name=".Slide58_60">
+
+        </activity>
+
+        <activity android:name=".Slide64_67">
+
+        </activity>
+
+        <activity android:name=".Slide82_83">
+
+        </activity>
+
+        <activity android:name=".Slide88_96">
+
+        </activity>
+
+        <activity android:name=".Slide97_99">
+
+        </activity>
+        
+        <activity android:name=".Slide101_102">
+
+        </activity>
+
+        <activity android:name=".Slide103_109">
+
+        </activity>
+
+        <activity android:name=".Slide110_111">
+
+        </activity>
+
+        <activity android:name=".Slide115_122">
+
+        </activity>
+
+        <activity android:name=".Slide123_128">
+
+        </activity>
+
+    </application>
+
+</manifest>

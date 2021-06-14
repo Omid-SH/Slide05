@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/info"
+        android:text="@string/select_mood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/info" >
+
+        <Button
+            android:id="@+id/good_mood"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:text="@string/good"
+            android:drawableLeft="@drawable/ic_good_mood"
+            android:layout_alignTop="@+id/info"
+            android:onClick="goodMoodMessage"/>
+
+        <Button
+            android:id="@+id/poker_mood"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/so_so"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:background="@color/colorPrimary"/>
+
+        <ImageButton
+            android:id="@+id/bad_mood"
+            android:src="@drawable/ic_bad_mood"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:onClick="badMoodMessage"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
